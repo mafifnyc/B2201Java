@@ -16,7 +16,7 @@ public class MyApp {
         char examGrade = 'A';
 
         String myGrade =  "A";
-
+        // Adding(Joining) two String  named as String Concatenation
         System.out.println("My Grade: " + examGrade);
 
     }
