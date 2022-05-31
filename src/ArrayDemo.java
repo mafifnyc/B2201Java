@@ -2,6 +2,7 @@ public class ArrayDemo {
      /**
       *
       *  String[] args = {"2", "4"}
+      *  String[] args = {"Jahidul", "Islam"}
       * */
     public static void main(String[] args) {
         // Building an array variable to store multiple integer type of data
