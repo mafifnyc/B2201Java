@@ -18,6 +18,12 @@ public class Login {
         // Validate the user is valid one or not
         Login login = new Login();
         String[] affiliateUserNameArray = {"John", "Jack", "Don"};
+       // You declared an object - Arif & Wali
+        // affiliateUserNameArray is a String array variable
+        // re-assign value to an array
+        // It is not possible to re-assign an array variable Ref: https://stackoverflow.com/questions/18288888/simple-way-to-re-assign-values-in-an-array
+        //affiliateUserNameArray = {"John", "Jack", "Don"};
+
 
         if(userName == affiliateUserNameArray[0]){
             System.out.println("This is valid Affiliate User");
