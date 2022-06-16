@@ -28,7 +28,7 @@ public class Author  {
     }
 
     public String toString() {
-        return this.firstName + " " + this.lastName;
+        return this.firstName + " " + this.lastName + "Junk";
     }
     public static void main(String[] args) {
         //String firstName = "Jack";
