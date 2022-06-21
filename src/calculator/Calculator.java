@@ -1,3 +1,5 @@
+package calculator;
+
 public class Calculator {
 
     /**
@@ -16,7 +18,7 @@ public class Calculator {
         System.out.println("Hello");
         // Call the method inside main method to make a relationship so that JVM can execute the custom
         //  method
-        int value = add(100, 200);
+        int value = add(2,2);
         System.out.println("Value: " + value);
         //deduct();
     }
@@ -28,19 +30,16 @@ public class Calculator {
         // This method does some calculation and
         // returns the result of the calculation
         int result = a + b;
-        System.out.println("Added  Value : " +  result);
-        System.out.println("THIS IS A CUSTOM METHOD");
-        String calculatorName = "Casio 570";
         return result;
-
     }
 
-    public static void deduct(){
+    public static int deduct(){
         int a = 4;
         int b = 5;
         int result = a - b;
         System.out.println("Deducted  Value : " +  result);
         System.out.println("This method can make some deduction calculation");
+        return result;
     }
 
 }
